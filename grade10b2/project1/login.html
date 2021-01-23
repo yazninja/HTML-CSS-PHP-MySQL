@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image:url(pink.jpg);
+background-size:cover;
+}
+.one{
+    height:50px;
+    width:50px;
+    background-color:turqoise;
+    left:50px;
+    top:50px;
+    position:absolute;
+    font-size:20px;
+    color:white;
+}
+*{
+  margin:0px;
+}
+.two{
+     background-color:rgba(136,221,189,0.5);
+     bottom:0px;
+     height:60px;
+     width:100%;
+     position:fixed;
+     color:white;
+     font-family:Verdana;
+     font-size:15px;
+     padding:2.5px 10px;
+     text-align:center;
+}
+.three{
+     left:0px;
+     top:0px;
+     right:0px;
+     bottom:0px;
+     position:absolute;
+     margin-top:500px;
+     margin-left:-550px;
+}
+.four{
+     color:blue;
+     border-top:2px solid grey;
+     height:50px;
+     width:200px;
+     position:absolute;
+     left:100px;
+     top:300px;
+     margin-left:470px;
+}
+.four:hover{
+border-top:2px solid white;
+}
+.usn{
+   background-color:rgba(0,0,0,0);
+   border-radius:10px;
+   padding:5px 10px;
+   border:none;
+text-align:center;
+width:180px;
+color:white;
+font-family:Tahoma;
+}
+.pss{
+   background-color:rgba(0,0,0,0);
+   border-radius:10px;
+   padding:5px 10px;
+   border:none;
+   text-align:center;
+width:180px;
+color:white;
+font-family:Tahoma;
+}
+
+.five{
+border-top:2px solid grey;
+height:50px;
+     width:200px;
+     position:absolute;
+     top:350px;
+     margin-left:570px;
+}
+.five:hover{
+border-top:2px solid white;
+}
+.six{
+     color:red;
+     border-radius:20px;
+     height:150px;
+     width:100px;
+     position:absolute;
+     left:0px;
+     top:400px;
+     margin-left:550px;
+}
+.pow{
+   background-color:rgba(0,0,0,0.35);
+   border-radius:15px;
+   width:200px;
+   border:none;
+   margin-left:20px;
+   height:25px;
+   text-align:center;
+font-family:Verdana;
+color:white;
+}
+img{
+   position:fixed;
+   height:100%;
+   width:100%;
+}
+.three img{
+   position:fixed;
+   margin:auto;
+   height:90px;
+   width:90px;
+   left:380px;
+   top:210px;
+}
+input{
+width:200px;
+}
+input:focus{
+font-family:courier new;
+text-align:left;
+color:white;
+
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.message{
+color:red;
+background-color:rgba(0,0,0,0.2);
+font-family:verdana;
+text-align:center;
+border-radius:10px;
+font-size:10px;
+width:250px;
+position:absolute;
+left:0;
+right:0;
+bottom:0;
+top:0;
+margin:auto;
+
+}
+</style>
+<body>
+<form action='login.php' method='POST'>
+<div class="one">
+</div>
+<div class="two"><br>C:Grade 10-Batch 2 |2017| Batch Force</div>
+<div class="three"></div>
+<div class="four"><input type='text' class='usn' name='user' placeholder='Username' required  oninvalid="this.setCustomValidity('No Username detected')"
+ oninput="setCustomValidity('')"/></div>
+<div class='five'><input type='password'class='pss' name='pass' placeholder='Password' required  oninvalid="this.setCustomValidity('No Password detected')"
+ oninput="setCustomValidity('')"/></div>
+<div class='six'><input type='submit'value='Login'class='pow'></div>
+
+</body>
+</html>
+

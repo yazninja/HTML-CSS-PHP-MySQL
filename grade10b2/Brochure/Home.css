@@ -1,0 +1,117 @@
+*{
+margin:0;
+}
+body{
+background-image:url(hotel.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.content{
+height:100%;
+width:1000px;
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+}
+img{
+padding-left:50px;
+padding-bottom:20px;
+width:100px;
+}
+.main {
+text-align:center;
+position:absolute;
+width:800px;
+left:200px;
+}
+.bottom{
+width:100%;
+text-align:center;
+position:absolute;
+bottom:0;
+background-color:blue;
+}
+ul {
+background-color:rgba(0,0,0,0.5);
+margin:0;
+padding:0;
+list-style-type:none;
+height:100%;
+width:200px;
+}
+
+li a{
+display:block;
+padding:20px 20px;
+font-family:arial;
+font-size:15px;
+color:white;
+text-decoration:none;
+}
+
+li a:hover{
+color:#f1f1f1;
+background-color:rgb(43,49,132);
+text-decoration:none;
+}
+h1{
+padding-top:170px;
+font-size:60px;
+color:rgb(40,49,153);
+}
+h2{
+margin-top:-50px;
+text-align:right;
+color:#323232;
+font-size:20px;
+}
+.main p{
+background-color:rgba(0,0,0,0.5);
+margin-top:60px;
+margin-left:165px;
+width:500px;
+color:white;
+font-family:Bradley Hand ITC;
+font-size:40px;
+border-radius:25px;
+}
+#bed{
+margin-left:-350px;
+position:absolute;
+width:200px;
+padding-left:0;
+padding-bottom:0;
+margin-top:10px;
+border-radius:50px;
+border:solid;
+border-color:white;
+border-width:3px;
+}
+#food{
+margin-left:180px;
+position:absolute;
+width:200px;
+padding-left:0;
+padding-bottom:0;
+margin-top:10px;
+border-radius:50px;
+border:solid;
+border-color:white;
+border-width:3px;
+}
+#room{
+margin-left:-100px;
+position:absolute;
+width:200px;
+padding-left:0;
+padding-bottom:0;
+margin-top:10px;
+border-radius:50px;
+border:solid;
+border-color:white;
+border-width:3px;
+}

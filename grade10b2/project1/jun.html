@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image:url(pink.jpg);
+background-size:cover;
+}
+
+*{
+  margin:0px;
+}
+.two{
+     background-color:rgba(1,53,1,0.8);
+border-top:1px solid white;
+     bottom:0px;
+     height:50px;
+     width:100%;
+     position:fixed;
+     color:white;
+     font-family:Verdana;
+     font-size:15px;
+     padding:2.5px 10px;
+     text-align:center;
+}
+
+
+input[type=submit] {
+   background-color:rgba(0,0,0,0.45);
+   border-radius:15px;
+   width:200px;
+   border:none;
+   margin-left:20px;
+   height:35px;
+   text-align:center;
+font-family:Verdana;
+color:white;
+}
+
+input[type=submit]:hover {
+   background-color:rgb(1,53,1);
+   border:1px solid white;
+  color:yellow;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgb(1,53,1);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(1,53,1);
+}
+.log {
+width: 750px;
+height:350px;
+position:absolute;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+margin:auto;
+}
+.logo {
+width:350px;
+height:350px;
+position:absolute;
+}
+.form {
+float:right;
+}
+.top {
+margin-top:10px;
+width:350px;
+height:30px;
+background:rgb(1,53,1);
+border-radius:20px 20px 0px 0px;
+border-top:1px solid white1;
+border-left:1px solid white1;
+border-right:1px solid white1;
+
+}
+.main {
+width:350px;
+height:260px;
+background:rgba(1,53,1,0.5);
+border-left:1px solid white1;
+border-right:1px solid white1;
+text-align:center;
+}
+
+.bottom {
+width:350px;
+height:30px;
+background:rgb(1,53,1);
+border-radius:0px 0px 20px 20px;
+border-bottom:1px solid white1;
+border-left:1px solid white1;
+border-right:1px solid white1;
+
+}
+
+.main input[type=text], input[type=password] {
+width:250px;
+height:30px;
+padding:5px 10px;
+font-size:15px;
+background:none;
+border:1px solid rgb(1,53,1);
+}
+
+.main input[type=text]:hover, input[type=password]:hover {
+background:rgba(0,255,0,0.2);
+border:1px solid rgb(255,255,255);
+
+}
+
+.main input[type=text]:focus, input[type=password]:focus {
+background:rgba(0,255,0,0.2);
+border:1px solid rgb(255,255,255);
+
+}
+
+
+.form input {
+margin-top:20px;
+}
+
+.top p {
+padding:10px 20px;
+font-family:arial;
+font-size:13px;
+color:white;
+}
+
+.bottom p {
+padding:8px 20px;
+font-family:arial;
+font-size:13px;
+color:white;
+text-align:center;
+}
+
+
+</style>
+<body>
+<div class='log'>
+<div class='logo'>
+<img src='bakhala.gif' width='350'/>
+</div>
+<div class='form'>
+<div class='top'>
+<p>Log-in Information</p>
+</div>
+<div class='main'>
+<br>
+<form action='login.php' method='POST'>
+<input type='text' class='usn' name='user' placeholder='Username' required  oninvalid="this.setCustomValidity('No Username detected')"
+ oninput="setCustomValidity('')"/> <br>
+<input type='password'class='pss' name='pass' placeholder='Password' required  oninvalid="this.setCustomValidity('No Password detected')"
+ oninput="setCustomValidity('')"/><br>
+<div class='six'><input type='submit'value='Login'></div>
+</form>
+</div>
+<div class='bottom'>
+<p>Error Message</p>
+</div>
+</div>
+</div>
+<div class="two">
+<br>C:Grade 10-Batch 2 |2017| Batch Force
+</div>
+</body>
+</html>
+

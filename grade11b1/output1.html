@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Philippine School Doha ||Home (Design by YazTech)</title>
+</head>
+<style>
+
+*{
+margin:0;
+animation: fadeIn 5s;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+body{
+background-color:#272727;
+}
+.main{
+width:95%;
+height:90%;
+background-color:#9f9f9f;
+color:white;
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+}
+.logo{
+position:absolute;
+left:5%;
+background-color:rgba(128,128,200,0.8);
+z-index:2;
+width:120px;
+height:120px;
+
+}
+#psd{
+width:110px;
+height:110px;
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+margin:auto;
+}
+.topmenu{
+    border-radius: 100px;
+    background-color:white;
+    width: 80%;
+    height: 8%;
+	top:1%;
+	left:15%;
+	position:absolute;
+}
+.search{
+left:83%;
+top:2%;
+position:absolute;
+border-radius:25px;
+    width:200px;
+	height:25px;
+transition:1s ease-in;
+border:1px solid #adc5cf;
+padding:6px 15px 6px 30px;
+    margin:3px; 
+    background-image: url('search.png') no-repeat 8px 6px; 
+
+	}
+.search:hover{
+box-shadow: 0px 0px 40px grey;
+transition:1s;
+    background: #f0f0f0;
+transition:1s ease-in;
+.search:focus{
+color:white;
+background-color:#fff000;
+}
+ul{
+	list-style-type: none;
+	vertical-align:center;
+	position:absolute;
+	top:20%;
+}
+li{
+display:inline;
+color:#272727;
+font-family:Raleway Black;
+
+font-size:35px;
+padding:50px;
+}
+</style>
+<body>
+<div class="topmenu">
+<ul>
+<li>Home</li>
+<li><a href=.vision>PSD Vision</a></li>
+<li>PSD Mission</li>
+</ul>
+<span><input type="text" class="search" placeholder="Search..."></span>
+</div>
+<div class="logo">
+<img src='psdlogo.png' id='psd'>
+</div>
+<div class="main">
+<h1>Hello</h1>
+</div>

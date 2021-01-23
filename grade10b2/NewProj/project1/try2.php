@@ -1,0 +1,1 @@
+<a href="toprintdiv.php" rel="noopener noreferrer" target="_blank">Preview Receipt</a>
